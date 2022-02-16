@@ -6,9 +6,10 @@
 //FUSES
 #FUSES NOWDT  //Fuse No watchdog timer
 //Fuse que hace el "switcheo" entre el cristal externo e interno o detiene al microcontrolador 
-//en caso de que nuestro cristal externo este dañado
+//en caso de que nuestro cristal externo este daÃ±ado
 #FUSES NOBROWNOUT 
 #FUSES INTRC //Fuse para cristal interno
+#FUSES NOPROTECT 
 
 #use delay(clock=8M)
 #USE STANDARD_IO(B)
